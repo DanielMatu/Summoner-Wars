@@ -1,0 +1,87 @@
+to do list
+
+- figure out how to tell when a card slot in hand
+is empty
+
+- get all mouse shit out of the way
+
+
+79
+429
+496      
+286
+80
+629
+495
+488
+
+if
+mx >= 79 && mx <= 496 && my <= 429 && my >= 286
+then first
+
+if 
+mx >= 80 && mx <= 495 && my <= 629 && my >= 488
+then second
+
+24
+743
+172
+687
+
+211
+744
+358
+688
+
+389
+745
+535
+689
+
+571
+744
+717
+688
+
+745
+744
+891
+687
+
+if mx >= 24 && my <= 743 && mx <= 172 && my >= 687{
+    p1_hand[1] selected
+
+if mx >= 211 && my <= 744 && mx >= 358 && my >= 688
+    p1_hand[2] selected
+
+if mx >= 389 && my <= 743 && mx <= 535 && my >= 687{
+    p1_hand[3] selected
+
+if mx >= 571 && my <= 743 && mx <= 717 && my >= 687{
+    p1_hand[4] selected
+
+if mx >= 745 && my <= 743 && mx <= 891 && my >= 687{
+    p1_hand[5] selected
+
+
+
+24
+686
+
+210
+687
+
+388
+689
+
+570
+688
+
+743
+689
+
+
+
+
+ 
+
