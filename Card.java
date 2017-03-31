@@ -82,7 +82,8 @@ public class Card extends Applet
     public void drawCard1(Graphics g){
 	//System.out.println(this.getPath());
 	Image local_image;
-	local_image = new ImageIcon("C:\\Users\\daniel\\Desktop\\e\\BRUH\\"+this.name+".jpg").getImage();
+	String startpath = System.getProperty("user.dir") + "\\images\\";
+	local_image = new ImageIcon(startpath +this.name+".jpg").getImage();
 	g.drawImage(local_image, this.x, this.y, this.width, this.height, null);  //uncomment this line and the line directly above it when you have all image files, and comment the 3 lines directly below this line.
 	//Image local_image_2;
 	//local_image_2 = new ImageIcon("C:\\Users\\daniel\\Desktop\\e\\BRUH\\cultist.jpg").getImage();

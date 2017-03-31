@@ -1,5 +1,4 @@
 import java.awt.*;
-import java.awt.Graphics;
 import javax.swing.ImageIcon;
 import java.awt.event.MouseListener;
 import java.awt.event.MouseEvent;
@@ -40,7 +39,8 @@ public class DiscardPile
     public void discardSearch (Graphics g)
     {
 	Image discard;
-	discard = new ImageIcon ("C:\\Users\\daniel\\Desktop\\e\\BRUH\\Discard.jpg").getImage ();
+	String startpath = System.getProperty("user.dir") + "\\src\\images\\";
+	discard = new ImageIcon (startpath + "Discard.jpg").getImage ();
 	g.drawImage(discard, 0, 0, (int)this.screen_width, (int)this.screen_height, null);
 	for (int i = 0 ; i < 5 ; i++)
 	{   

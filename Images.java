@@ -123,7 +123,7 @@ public class Images extends JFrame implements MouseListener
 
     public void loadpics ()
     {
-    String startpath = System.getProperty("user.dir") + "\\src\\";
+    String startpath = System.getProperty("user.dir") + "\\images\\";
 	bg = new ImageIcon (startpath + "ayyyy.jpg").getImage ();
 	ds = new ImageIcon (startpath + "deck select.png").getImage ();
 	mat = new ImageIcon (startpath + "mat_room_to_do_shit.jpg").getImage ();

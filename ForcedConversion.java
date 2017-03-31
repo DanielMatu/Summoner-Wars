@@ -1,5 +1,4 @@
 import java.awt.*;
-import java.awt.Graphics;
 import javax.swing.ImageIcon;
 import java.awt.event.MouseListener;
 import java.awt.event.MouseEvent;
@@ -16,6 +15,7 @@ public class ForcedConversion extends EventCard implements MouseListener
 
     public ForcedConversion(){
 	super();
+	String startpath = System.getProperty("user.dir") + "\\src\\images\\";
 	cultist_appearance = new ImageIcon("C:\\Users\\daniel\\Desktop\\e\\BRUH\\cultist.jpeg").getImage();
 	addMouseListener(this);
     }
