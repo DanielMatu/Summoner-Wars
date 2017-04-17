@@ -8,6 +8,7 @@ import java.awt.event.MouseListener;
 import java.awt.event.MouseEvent;
 
 //import hsa.Console;
+//
 
 public class Card extends Applet
 {    
