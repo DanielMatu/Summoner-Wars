@@ -1,8 +1,3 @@
-# Summoner-Wars
-
-@djiemm  
-I promise I'm not a nerd.
-
 Fan-made implementation of summoner wars in progress.
 
 
